@@ -17,6 +17,7 @@ public class ToDoService {
     public List<ToDo> findAll(){
         return toDoRepository.findAll(); // Remember, spring boot handles implementation of this interface!
     }
+
   /*
     public ToDo findById(String id){
         return toDoRepository.findById(id).orElseThrow(EntityNotFoundException::new);
